@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/0.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loginform">
+        
+        <div class="box">
+            <div class="button_box">
+                <div id="btn"></div>
+                <button type="button" class="toggle_btn" onclick="login()">Log in</button>
+                <button type="button" class="toggle_btn" onclick="register()">Register</button>
+            </div>
+        </div>    
+        <form id="login" class="all_input">
+            <input type="email" class="input1" placeholder="Email Id" required>
+            <input type="password" class="input1" placeholder="New Password" required>
+            <input type="checkbox" class="check_box">
+            <span>Remember Password</span>
+            <button type="submit" class="submit_btn"><a class="asubmit" href="html/homepage.html">Log in</a></button>
+        </form>
+        <form id="register" class="all_input">
+            <input type="text" class="input1" placeholder="Username" required>
+            <input type="email" class="input1" placeholder="Email" required>
+            <input type="password" class="input1" placeholder="Password" required>
+            <input type="checkbox" class="check_box1">
+            <span id="conditions">I accept terms and conditions</span>
+            <button type="submit" class="submit_btn">Register</button>
+        </form>
+    </div>
+
+    <script src="js/0.js"></script>
+</body>
+</html>

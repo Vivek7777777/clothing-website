@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(198, 158, 158);
+}
+
+.loginform{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: transparent; */
+    box-shadow: 0 0 20px rgb(113, 109, 109);
+    position: relative;
+    margin:  8% auto;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.button_box{
+    width: 214px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0px 0px 20px 9px #ff61241f;
+    border-radius: 20px;
+}
+
+.toggle_btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none ;
+    position: relative;
+    width: 100px;
+    font-size: 15px;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 105px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.all_input{
+    top: 120px;
+    position: absolute;
+    width: 250px;
+    transition: .5s;
+    /* display: none; */
+}
+
+.input1{
+    width: 130%;
+    padding: 10px 0;
+    margin: 2% 15%;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit_btn{
+    width: 60%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 11px 47%;
+    background: linear-gradient(to right, #ff105f, #f9ba0c, rgb(234, 37, 86));
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 30px;
+    /* box-shadow: 0px 0px 12px rgb(81, 79, 81); */
+}
+
+.submit_btn:hover{
+    width: 60%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 11px 47%;
+    background: linear-gradient(to right, #ff105f, #f9ba0c, rgb(234, 37, 86));
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 12px rgb(81, 79, 81);
+    transition: .5s;
+}
+
+.check_box{
+    margin: 36px 10px 30px 15%;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    top: 133px;
+    left: 57px;
+    /* bottom: 116px; */
+    position: absolute;
+}
+
+/* #login{
+} */
+
+#register{
+    left: 450px;
+}
+
+#conditions{
+    top: 172px;
+}
+
+.check_box1{
+    margin: 26px 10px 15px 15%;
+    
+}
+
+.asubmit{
+    text-decoration: none;
+    color: black;
+}
+
