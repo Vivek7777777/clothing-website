@@ -1,0 +1,28 @@
+.box1{
+    margin: 10px auto;
+    max-width: 95%;
+}
+
+.box1_content{
+    margin: auto 50px ;
+    width: 90%;
+}
+
+.box_heading{
+    font-size: 30px;
+}
+
+.box_text{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.item_quality{
+    margin: 5px;
+}
+
+.box_subheading{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
