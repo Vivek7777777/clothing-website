@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- style link -->
+    <link rel="stylesheet" href="../css/payment.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div class="payment">
+            <div class="payment_product">
+                <div>
+                    <h2>Solid Color Men's Round Neck T-Shirt</h2>
+                    <div class="price">
+                        Rs. 725
+                    </div>
+                </div>
+            </div>
+            <div class="payment_bill">
+                <h3>Receipt Summary</h3>
+                <ul>
+                    <li>
+                        <span>250 x 1 item</span>
+                        <span>Rs. 950.00</span>
+                    </li>
+                    <li>
+                        <span>Discount</span>
+                        <span>Rs. 50.00</span>
+                    </li>
+                    <li>
+                        <span>Subtotal</span>
+                        <span>Rs. 675.00</span>
+                    </li>
+                    <li>
+                        <span>Tax</span>
+                        <span>Rs. 50.00</span>
+                    </li>
+                    <li>
+                        <span>Total</span> 
+                        <span>Rs. 725.00</span>
+                    </li>
+                </ul>
+                <hr>
+                <h3>Payment Information</h3>
+                <form action="/" class="payment_form">
+                    <div class="form-input">
+                        <input type="text" placeholder="Card Number" style="width: 100%;">
+                    </div>
+                    <div class="form-input">
+                        <select>
+                            <option>Month</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>February</option>
+                        </select>
+                        <select>
+                            <option>Year</option>
+                            <option>2023</option>
+                            <option>2022</option>
+                            <option>2021</option>
+                        </select>
+                        <input type="text" placeholder="CVC">
+                    </div>
+                    <button type="submit">Order Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
