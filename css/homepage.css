@@ -12,6 +12,7 @@ nav{
     display: flex;
     justify-content: space-around;
     height: 270px;
+    /* margin-top: 50px; */
 }
 
 
@@ -38,13 +39,71 @@ nav{
 .shadoww{
     height: 250px;
     width: 150px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px 15px;
     transition: 0.2s;
 }
 
 .shadoww:hover {
-    transform: translateY(-12px);
+    transform: translateY(-7px);
     transition-timing-function: ease-in-out;
-    
+
 }
+
+
+
+
+@media only screen and (max-width: 1410px) {
+    .shadoww8{
+        display: none;
+    }
+    .shadoww{
+        height: 270px;
+        width: 160px;
+        /* border: 1px solid black; */
+        margin: 5px 15px;
+        transition: 0.2s;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .shadoww7{
+        display: none;
+    }
+    .shadoww{
+        height: 270px;
+        width: 160px;
+        /* border: 1px solid black; */
+        margin: 5px 15px;
+        transition: 0.2s;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .shadoww6{
+        display: none;
+    }
+    .shadoww{
+        height: 280px;
+        width: 170px;
+        /* border: 1px solid black; */
+        margin: 5px 15px;
+        transition: 0.2s;
+    }
+    .heading{
+        margin: 40px 0 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .shadoww5{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .shadoww4{
+        display: none;
+    }
+}
+

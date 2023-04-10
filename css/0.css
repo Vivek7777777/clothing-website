@@ -6,7 +6,10 @@
 }
 
 body{
-    background-color: rgb(198, 158, 158);
+    background-image: url("../img/mesh-757.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .loginform{
