@@ -5,7 +5,7 @@
 
 .box1_content{
     margin: auto 50px ;
-    width: 90%;
+    width: 100%;
 }
 
 .box_heading{
@@ -40,4 +40,29 @@
 .addtocart{
     /* background-color: rgb(251, 100, 27); */
     color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+    .buybtn{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 514px) {
+    .buynow, .addtocart{
+        width: 40%;
+        padding: 10px 0;
+        margin-right: 5px;
+    }
 }
