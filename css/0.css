@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url("../img/mesh-757.png");
+    background-image: linear-gradient(to bottom left , rgba(255,255,255,0.1), rgba(0, 0, 0, 0.578) 70%) , url("../img/loginbg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,21 +15,26 @@ body{
 .loginform{
     width: 400px;
     height: 400px;
-    background-color: rgb(255, 255, 255);
-    /* background-color: transparent; */
-    box-shadow: 0 0 20px rgb(113, 109, 109);
     position: relative;
     margin:  8% auto;
     padding: 5px;
     border-radius: 10px;
     overflow: hidden;
 }
+/* glassmorphism */
+.loginform{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 
 .button_box{
     width: 214px;
     margin: 35px auto;
     position: relative;
-    box-shadow: 0px 0px 20px 9px #ff61241f;
     border-radius: 20px;
 }
 
@@ -41,7 +46,7 @@ body{
     outline: none ;
     position: relative;
     width: 100px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #btn{
@@ -50,7 +55,8 @@ body{
     position: absolute;
     width: 105px;
     height: 100%;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: rgba(251, 245, 220, 0.785);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     border-radius: 30px;
     transition: .5s;
 }
@@ -70,9 +76,18 @@ body{
     border-left: 0;
     border-top: 0;
     border-right: 0;
-    border-bottom: 1px solid #999;
+    /* border-bottom: 1px solid #ffffff; */
     outline: none;
     background: transparent;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(0, 0, 0);
+  opacity: 1; /* Firefox */
+}
+
+.rempass{
+    color: black;
 }
 
 .submit_btn{
@@ -81,7 +96,8 @@ body{
     cursor: pointer;
     display: block;
     margin: 11px 47%;
-    background: linear-gradient(to right, #ff105f, #f9ba0c, rgb(234, 37, 86));
+    background: rgba(251, 245, 220, 0.785);
+    box-shadow: 0 8px 6px 0 rgba( 31, 38, 135, 0.37 );
     border: none;
     outline: none;
     font-size: 17px;
@@ -95,12 +111,12 @@ body{
     cursor: pointer;
     display: block;
     margin: 11px 47%;
-    background: linear-gradient(to right, #ff105f, #f9ba0c, rgb(234, 37, 86));
+    background: rgba(251, 245, 220, 0.785);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     border: none;
     outline: none;
     font-size: 17px;
     border-radius: 30px;
-    box-shadow: 0px 0px 12px rgb(81, 79, 81);
     transition: .5s;
 }
 
@@ -109,7 +125,6 @@ body{
 }
 
 span{
-    color: #777;
     font-size: 12px;
     top: 133px;
     left: 57px;
